@@ -1,4 +1,0 @@
-[submodule "themes/cactus-white"]
-	path = themes/cactus-white
-	url = git@github.com:sergodeeva/cactus-white.git
-	branch = master
