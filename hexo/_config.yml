@@ -7,7 +7,7 @@ title: ixi
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: I幻想家
 language: en
 timezone: ''
 
@@ -97,13 +97,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: shoka
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: hhttps://github.com/AruthlessMachine/ARuthlessMachine.github.io
+  repo: https://github.com/AruthlessMachine/ARuthlessMachine.github.io
   branch: blog
 
 

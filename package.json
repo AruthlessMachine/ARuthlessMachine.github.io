@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/ARuthlessMachine/ARuthlessMachine.github.io#readme",
   "dependencies": {
-    "hexo-deployer-git": "^3.0.0",
     "hexo-site": "file:hexo"
   },
   "devDependencies": {
