@@ -8,7 +8,7 @@
     "hexo-init": "npx hexo init",
     "hexo-serve": "npx hexo s -o",
     "hexo-create": "npx hexo n '123'",
-    "hexo-deploy": "npx hexo clean && npx hexo deploy -g"
+    "hexo-deploy": "npx hexo clean | npx hexo d"
   },
   "repository": {
     "type": "git",
