@@ -1,0 +1,30 @@
+{
+  "name": "aruthlessmachine.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hexo-init": "npx hexo init",
+    "hexo-serve": "npx hexo s -o",
+    "hexo-create": "npx hexo n '123'",
+    "hexo-deploy": "npx hexo clean && npx hexo deploy -g"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARuthlessMachine/ARuthlessMachine.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ARuthlessMachine/ARuthlessMachine.github.io/issues"
+  },
+  "homepage": "https://github.com/ARuthlessMachine/ARuthlessMachine.github.io#readme",
+  "dependencies": {
+    "hexo-deployer-git": "^3.0.0",
+    "hexo-site": "file:hexo"
+  },
+  "devDependencies": {
+    "hexo-cli": "^4.3.0"
+  }
+}
