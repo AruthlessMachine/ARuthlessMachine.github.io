@@ -3,12 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: ixi
+title: I幻想家
 subtitle: ''
 description: ''
 keywords:
 author: I幻想家
-language: en
+language:
+  - zh-CN
+  - zh-tw
+  - en
+
 timezone: ''
 
 # URL
@@ -97,7 +101,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: shoka
+theme: freemind
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
