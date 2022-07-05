@@ -1,1 +1,1 @@
-# ARuthlessMachine.github.io
+# diary-hexo
