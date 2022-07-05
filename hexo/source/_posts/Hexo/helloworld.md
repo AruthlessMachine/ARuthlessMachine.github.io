@@ -1,8 +1,14 @@
 ---
-title: page
-date: 2022-06-07 01:36:06
+title: hello world hexo
+date: 2022-06-07 01:40:30
+update: 
+tags: 
+  - Hexo
+categories:     
+  - Hexo
+comments: true
+permalink: 
 ---
-
 
 ### Run server
 

@@ -21,10 +21,10 @@ menu:
     url: about
     intro: "About me."
     icon: "fa fa-user"
-  - title: RSS
-    url: atom.xml
-    intro: "Subscribe me."
-    icon: "fa fa-rss"
+  # - title: RSS
+  #   url: atom.xml
+  #   intro: "Subscribe me."
+  #   icon: "fa fa-rss"
 
 links:
   - title: Freemind
@@ -38,17 +38,16 @@ links:
   #   icon: "fa fa-linkedin"
 
 widgets:
-- search
+# - search
 - category
 - tagcloud
 - recent_posts
 - links
 
-rss: 
-fancybox: true
-favicon: favicon.png
-duoshuo_shortname:
-
+# rss: 
+# fancybox: true
+# favicon: favicon.png
+# duoshuo_shortname:
 
 # Analytics (change to yours)
 google_analytics:
@@ -59,4 +58,4 @@ baidu_tongji:
   siteid: cb5448498d7169c668b07c2b255d62c1
 
 # search
-swiftype_key: ZP2ZSuHgipSZfRyU8uTR
+# swiftype_key: ZP2ZSuHgipSZfRyU8uTR
