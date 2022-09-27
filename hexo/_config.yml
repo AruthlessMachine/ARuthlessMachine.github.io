@@ -4,10 +4,14 @@
 
 # Site
 title: I幻想家
-subtitle: ''
-description: ''
-keywords:
-author: I幻想家
+subtitle: 宇宙奥秘无限
+description: 一些无聊的记录
+keywords: 
+  - I幻想家
+  - ARuthlessMachine
+  - 记事本
+  - 备忘录
+author: ARuthlessMachine
 language:
   - zh-CN
   - zh-tw
@@ -17,11 +21,12 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://ARuthlessMachine.github.io/
+root:
+permalink: :year/:hash/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
@@ -33,6 +38,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - "about/**"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -43,10 +49,10 @@ external_link:
   field: site # Apply to the whole site
   exclude: ''
 filename_case: 0
-render_drafts: false
-post_asset_folder: false
+render_drafts: true
+post_asset_folder: true
 relative_link: false
-future: true
+future: false
 highlight:
   enable: true
   line_number: true
@@ -69,14 +75,20 @@ index_generator:
   per_page: 10
   order_by: -date
 
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
 # Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
 
-# Metadata elements
-## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-meta_generator: true
+include:
+exclude:
+ignore:
+
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -87,21 +99,11 @@ time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
 updated_option: 'mtime'
 
-# Pagination
-## Set per_page to 0 to disable pagination
-per_page: 10
-pagination_dir: page
-
-# Include / Exclude file(s)
-## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
-ignore:
-
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: freemind
+theme_config: 
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -109,5 +111,7 @@ deploy:
   type: git
   repo: https://github.com/AruthlessMachine/ARuthlessMachine.github.io
   branch: blog
+
+meta_generator: true
 
 

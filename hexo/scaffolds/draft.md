@@ -1,4 +1,9 @@
 ---
 title: {{ title }}
-tags:
+date: {{ date }}
+updated: {{ date }}
+tags: 
+categories:     
+comments: true
+permalink: 
 ---
