@@ -113,5 +113,3 @@ deploy:
   branch: blog
 
 meta_generator: true
-
-
