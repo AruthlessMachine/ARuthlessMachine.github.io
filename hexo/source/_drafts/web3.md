@@ -29,6 +29,8 @@ permalink:
 
 - [系统学习区块链、Solidity和前后端全栈Web3开发 BiLiBiLi](https://www.bilibili.com/video/BV1kW4y1b7Dc/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=98cab74ccf748fd4bc7ca927ca08a4a0)
 
+- [編程寶庫solidity學習文檔](http://www.codebaoku.com/solidity/solidity-index.html)
+
 - {% bilicard BV1kW4y1b7Dc %}
 
 
