@@ -17,7 +17,7 @@ permalink:
 
 ## 相关资料
 
-- [以太坊黄皮书PDF](ethereum_yellow_paper_cn.pdf)
+- [以太坊黄皮书PDF](ethereum_yellow_paper_cn.pdf?dd=kelfebsisodhvp)
 
 - [以太坊白皮书](https://ethereum.org/zh/whitepaper/#history)
 
@@ -27,10 +27,16 @@ permalink:
 
 - [EVM 深入探讨：通往 Shadowy Super Coder 之路🥷](https://noxx.substack.com/p/evm-deep-dives-the-path-to-shadowy)
 
-- [系统学习区块链、Solidity和前后端全栈Web3开发 BiLiBiLi](https://www.bilibili.com/video/BV1kW4y1b7Dc/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=98cab74ccf748fd4bc7ca927ca08a4a0)
-
 - [編程寶庫solidity學習文檔](http://www.codebaoku.com/solidity/solidity-index.html)
 
-- {% bilicard BV1kW4y1b7Dc %}
 
+- <br> {% bilicard BV1kW4y1b7Dc %}</br>
+
+- [智谷星图remix在线中文](http://remix.zhiguxingtu.com/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.1+commit.df193b15.js)
+
+- [以太坊区块链浏览器](https://etherscan.io/)
+
+- [Dapp 搜索去中心化应用](https://www.stateofthedapps.com/zh)
+
+- [TRUFFLE SUITE ganache](https://trufflesuite.com/docs/ganache/)
 
